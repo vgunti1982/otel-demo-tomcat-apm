@@ -1,0 +1,31 @@
+# Maven
+target/
+.m2/
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+.dockerignore
+
+# Project specific
+agent/
+opentelemetry-javaagent.jar
+prometheus_data/
+grafana_data/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
